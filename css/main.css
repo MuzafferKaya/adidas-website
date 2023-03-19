@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+#banner {
+    width: 100%;
+    height: 367px;
+    border-radius: 10px;
+    background: url(../img/banner.jpg) no-repeat;
+    background-size: cover;
+}
+
+#aside1 a {
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#aside1 a:hover {
+    border-color: black;
+}
+
+#aside2 img {
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    border-radius: 10px;
+    width: 425px;
+}
+
+#aside2 img:hover {
+    border-color: black;
+}
+
+#advert {
+    width: 100%;
+    height: 100px;
+    background-color: #EDE734
+}
+
+.card-title,
+.card-text,
+.card-subtitle {
+    font-size: 14px;
+}
+
+.card-text {
+    color: #767677;
+}
+
+.card {
+    border: 1px solid white;
+}
+
+.card:hover {
+    border: 1px solid rgba(0, 0, 0, 0.175);
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    color: #c8cbcc;
+    background-color: #363738;
+}
